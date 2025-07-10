@@ -66,3 +66,35 @@ nav{
    max-width: 400;
    margin-right: 200px;
 }
+.user-section{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.secondary-bg{
+    background-color: #d1d7fd8f;
+}
+.user-section{
+    border-radius: 20px;
+    width: 1355px;
+    margin: 0 auto;
+    padding: 20px 80px;
+    text-align: center;
+}
+.user-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0px;
+    padding: 0px;
+}
+.item-description{
+    font-weight: 200;
+    color: rgb(146, 135, 135);
+    font-size: 30px;
+
+}
