@@ -21,10 +21,11 @@
     background-position: bottom;
 }
 .banner{
-    width: 1440px;
+    width: 1040px;
     height: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 230px;   
+    padding: 230px; 
+    margin: 0 auto;  
 }
 
 nav{
@@ -74,6 +75,9 @@ nav{
 .secondary-bg{
     background-color: #d1d7fd8f;
 }
+main section{
+    margin-top: 130px;
+}
 .user-section{
     border-radius: 20px;
     width: 1355px;
@@ -84,6 +88,7 @@ nav{
 .user-items{
     display: flex;
     justify-content: space-around;
+    
 }
 .item-title{
     font-size: 100px;
@@ -97,4 +102,32 @@ nav{
     color: rgb(146, 135, 135);
     font-size: 30px;
 
+}
+.section-feedback-title{
+    font-size: 42px;
+    text-align: center;
+    
+}
+.feedback-container{
+    display: flex;
+    gap: 20px;
+}
+.feedback{
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 1px 1px 3px 3px#25243220;
+    background-color: rgba(255, 255, 255, 0.495);
+     margin: 0 auto;
+     max-width: 1040px;
+}
+    
+.avater{
+    border-radius: 50px;
+}
+.name{
+    color: #52505f;
+    font-weight: 600;
+}
+.date{
+    color: rgba(120, 117, 117, 0.563);
 }
