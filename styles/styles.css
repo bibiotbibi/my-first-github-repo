@@ -15,6 +15,7 @@
     padding: 20px 40px;
     border-radius: 15px;
     border: none;
+    cursor: pointer;
 }
 .header{
     background-image: url(../img/Hero-bg.png);
@@ -160,16 +161,9 @@ main section{
     padding: 5px 40px 60px 10px;
     font-size: 1.50em; 
 }
-.bton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f8f7fc;
-    margin: 100px;
-}
  .button{
     background-color: #4E47FF;
-    color: white;
+    color: rgb(247, 244, 244);
     padding: 15px 50px;
     border: none;
     font-size: 3em;
@@ -177,6 +171,16 @@ main section{
     width: 700;
     display: block;
     margin: 0 auto;
+    box-shadow: #91b641;
+    
+ }
+ .button:hover{
+    background-color: rgb(62, 144, 221);
+ }
+ .button:active{
+    background-color: rgb(125, 95, 165);
+    box-shadow: 5px 5px 5px #e096dd;
+    transform: translateY(4px);
  }
 .footer-logo{ 
     font-size: 9em;
