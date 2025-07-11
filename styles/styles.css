@@ -131,3 +131,73 @@ main section{
 .date{
     color: rgba(120, 117, 117, 0.563);
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px 0 100px;
+ }
+ .left{
+    max-width: 540px;
+    font-size: 3.5em;
+ }
+ .form{
+    margin-bottom: 50px;
+    display: block;
+    font-size: l.25em;
+    width: bold;
+ }
+.right input, textarea{
+    font-size: 1.25em;
+    padding: 20px 40px 20px 10px;
+    border-radius: 10px;
+}
+.right label{
+    display: block;
+    font-weight: 700;
+}
+.right textarea{
+    display: block;
+    padding: 5px 40px 60px 10px;
+    font-size: 1.50em; 
+}
+.bton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f7fc;
+    margin: 100px;
+}
+ .button{
+    background-color: #4E47FF;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    font-size: 3em;
+    cursor: pointer;
+    width: 700;
+    display: block;
+    margin: 0 auto;
+ }
+.footer-logo{ 
+    font-size: 9em;
+    color: #4E47FF;
+    text-align: center;
+    padding-bottom: none;
+    font-weight: bolder;
+    
+}
+.footer-description{
+    display: inline;
+    justify-content: space-around;
+    padding-left: 29px;
+}
+.footer-des, .footer-description{
+    color: #8a88a8;
+}
+.footer-column{
+    background-color: white;
+    /* max-width: 1140px; */
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
